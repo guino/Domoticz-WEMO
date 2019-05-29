@@ -18,14 +18,6 @@ To install:
 * Run: ```git clone https://github.com/guino/Domoticz-WEMO.git```
 * Restart Domoticz.
 
-Alternat Install/Update:
-* Simply create a directory under domoticz/plugins directory like 'WEMO' and download/copy the plugin.py file into it.
-* Restart Domoticz.
-
-In the web UI, navigate to the Hardware page. In the hardware dropdown there will be an entry called "WEMO".
-
-Devices detected are created in the 'Devices' tab, to use them you need to click the green arrow icon and 'Add' them to Domoticz.
-
 ## Updating
 
 To update:
@@ -33,9 +25,19 @@ To update:
 * Run: ```git pull```
 * Restart Domoticz.
 
+## Alternate Install/Update:
+
+* Simply create a directory under domoticz/plugins directory like 'WEMO' and download/copy the plugin.py file into it.
+* Restart Domoticz.
+
 ## Configuration
 
 There's no plugin configuration required, the setup of your devices/groups/etc should be done with the WEMO app and this plugin will detect/use the same settings.
+
+## Usage
+
+In the web UI, navigate to the Hardware page. In the hardware dropdown there will be an entry called "WEMO".
+Devices detected are created in the 'Devices' tab, to use them you need to click the green arrow icon and 'Add' them to Domoticz.
 
 ## Change log
 
