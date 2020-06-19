@@ -66,6 +66,8 @@ class BasePlugin:
 
     def onStop(self):
         Domoticz.Debug("onStop called")
+        while (threading.active_count() > 1):
+            time.sleep(1.0)
 
     def onConnect(self, Connection, Status, Description):
         Domoticz.Debug("onConnect called")
