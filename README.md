@@ -43,4 +43,5 @@ Devices detected are created in the 'Devices' tab, to use them you need to click
 
 | Version | Information|
 | ----- | ---------- |
+| 1.0.1 | Waits for thread end in onStop |
 | 1.0.0 | Initial upload version |
