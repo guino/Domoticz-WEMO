@@ -3,7 +3,7 @@
 # Author: Wagner Oliveira (wbbo@hotmail.com)
 #
 """
-<plugin key="BasePlug" name="WEMO" author="Wagner Oliveira" version="1.0.0" wikilink="http://www.domoticz.com/wiki/plugins/plugin.html" externallink="https://github.com/guino/Domoticz-WEMO">
+<plugin key="wemo" name="WEMO" author="Wagner Oliveira" version="1.0.0" wikilink="http://www.domoticz.com/wiki/plugins/plugin.html" externallink="https://github.com/guino/Domoticz-WEMO">
     <description>
         <h2>WEMO Plugin</h2><br/>
         This plugin is meant to control WEMO devices (on/off switches and Link LED lights)
@@ -45,7 +45,6 @@ import time
 from httplib2 import Http
 
 class BasePlugin:
-    enabled = False
     # WEMOs detected in network (WEMO udn to IP:PORT location)
     wemos = {}
 
